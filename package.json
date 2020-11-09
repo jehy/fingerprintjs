@@ -28,9 +28,6 @@
   "module": "dist/fp.esm.js",
   "types": "dist/fp.d.ts",
   "sideEffects": false,
-  "files": [
-    "dist"
-  ],
   "scripts": {
     "build": "rimraf dist && rollup -c",
     "build:watch": "yarn build --watch",
